@@ -13,4 +13,4 @@ paginate: 5
 paginate_path: "/adriancast/page:num/"
 
 # Build settings
-markdown: kramdown
+markdown: kramdown 
