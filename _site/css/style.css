@@ -126,6 +126,13 @@ color: white;
 	margin-right: auto;
 	}
 
+	#post-solo{
+
+		margin-top: 100px;
+		padding: 50px;
+		padding-top: 25px;
+	}
+
 /*Icons*/
 
 @import url(http://weloveiconfonts.com/api/?family=entypo);
