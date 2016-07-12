@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 <!DOCTYPE html>
 <html>
@@ -325,3 +326,29 @@ f+=g+"]",i[b]=f}return Function("val","return Snap.path.toString.call(["+i+"])")
 
 </body>
 </html>
+=======
+---
+layout: default
+---
+<div class="content-header">
+
+	<h2>En vez de estudiar escribo sobre...</h2>
+
+</div>
+{% for post in site.posts %}
+
+<div class="col-md-12 post">
+			<div class="row">
+
+				<div class="col-md-12 textPost" style="color:black;">
+					<h2><a class="post-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+				    <p>{{ post.content }}</p>
+
+				</div>
+
+			</div>
+
+		</div>
+
+{% endfor %}
+>>>>>>> develop
