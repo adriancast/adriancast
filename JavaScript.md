@@ -1,11 +1,8 @@
 ---
-layout: default
+layout: page
+title: Js
+permalink: /js/
 ---
-<div class="content-header">
-
-	<h2>En vez de estudiar escribo sobre...</h2>
-
-</div>
 {% for post in site.posts %}
 
 <div class="col-md-12 post">
