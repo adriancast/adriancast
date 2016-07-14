@@ -2,7 +2,7 @@
 title: </adrian_cast>
 email: hello@adriancastellanos.es
 description: > # this means to ignore newlines until "baseurl:"
-  Desarrollador Front End y estudiante. Blog personal adrian castellanos.En vez de preparar los exámenes de la universidad escribo sobre las nuevas tecnologías que aparecen y snippets de codigo que me han solucionado la vida.
+  Desarrollador Front End y estudiante. Blog personal Adrian Castellanos.En vez de preparar los exámenes de la universidad escribo sobre las nuevas tecnologías que aparecen y snippets de codigo que me han solucionado la vida.
 baseurl: "" # the subpath of your site, e.g. /blog/ 
 url: "http://adriancastellanos.es" # the base hostname & protocol for your site
 permalink: /:title
