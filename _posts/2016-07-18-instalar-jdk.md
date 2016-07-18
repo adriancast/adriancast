@@ -13,6 +13,8 @@ $ sudo apt-get update
 
 $ sudo apt-get install oracle-java8-installer
 
+sudo apt-get install oracle-java8-set-default
+
 **Verificar la version instalada:**
 
 $ java -version
