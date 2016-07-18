@@ -10,11 +10,8 @@ Actualmente estoy utilizando ubuntu 14.04 para trabajar. He encontrado que en un
 
 ```
 $ sudo add-apt-repository ppa:webupd8team/java
-
 $ sudo apt-get update
-
 $ sudo apt-get install oracle-java8-installer
-
 $ sudo apt-get install oracle-java8-set-default
 ```
 
