@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+
+
+
 <html>
 
   <head>
@@ -6,15 +8,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width initial-scale=1">
 
-  <title>Js</title>
-  <meta name="description" content="Desarrollador Front End y estudiante. Blog personal Adrian Castellanos.En vez de preparar los exámenes de la universidad escribo sobre las nuevas tecnologías que aparecen y snippets de codigo que me han solucionado la vida.
-">
+  <title>Jekyll, el blog para desarrolladores</title>
+  <meta name="description" content="¿ Qué es Jekyll?Jekyll es un generador estático diseñado para blogs. La parte más interesante de Jekyl es su integración con github-pages. Esta plataforma pe...">
 
 <!--  <link rel="stylesheet" href="css/main.scss"> -->
-  <link rel="canonical" href="http://adriancastellanos.es/js/">
+  <link rel="canonical" href="http://adriancastellanos.es/jekyll">
   <link rel="alternate" type="application/atom+xml" title="</adrian_cast>" href="http://adriancastellanos.es/feed.xml" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" >
-  <link rel="canonical" href="http://adriancastellanos.es/js/">
+  <link rel="canonical" href="http://adriancastellanos.es/jekyll">
   <link rel="alternate" type="application/atom+xml" title="</adrian_cast>" href="http://adriancastellanos.es/feed.xml" />
   <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.6.3/font-awesome.min.css" integrity="sha384-Wrgq82RsEean5tP3NK3zWAemiNEXofJsTwTyHmNb/iL3dP/sZJ4+7sOld1uqYJtE" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="/css/style.css">
@@ -39,99 +40,20 @@
   </div>
 </nav>
 
-    <div class="hero">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4 ">
-
-        <img src="img/me.jpg" alt="avatar" class="avatar animated" />
-        <img src="img/avatar2.jpg" alt="avatar-overlay" class="avatar-overlay" />
-
-      </div>
-
-      <div class="col-md-8 about-me animated ">
-        <h1>Adrian Castellanos</h1>
-        <h4>Front end developer + Student </h4>
-        <p>
-          Actualmente estoy cursando el grado de ingienería informática en la Universidad de las Islas Baleares. Cuando tengo un poco de
-          tiempo libre me gusta aprender nuevas tecnologías y participar en proyectos de software libre.
-        </p>
-
-        <h4>
-          Si quieres contactar conmigo puedes hacerlo en las siguientes plataformas...
-        </h4>
-          <div class="icon-wraper">
-            <a href="https://twitter.com/_adriancast"><div class="icon entypo-twitter animated"><i class="fa fa-twitter" aria-hidden="true"></i></div></a>
-            <a href="https://www.facebook.com/adrian.castellanos.182"><div class="icon entypo-facebook animated"><i class="fa fa-facebook" aria-hidden="true"></i></div></a>
-            <a href="https://github.com/adriancast/ "><div class="icon entypo-github animated"><i class="fa fa-github " aria-hidden="true"></i></div></a>
-            <a href="mailto:adriancastellanos2c@gmail.com"><div class="icon entypo-envelope animated"><i class="fa fa-envelope" aria-hidden="true"></i></div></a>
-          </div>
-
-
-
-
-      </div>
-
-    </div>
-
-  </div>
-
-</div>
-
-<script type="text/javascript">
-window.sr = ScrollReveal({ duration: 2000 });
-sr.reveal('.animated', 250);
-
-</script>
 
 
 <div class="container"id="content">
 
-	<div class="row">
-    
-<div class="col-md-12 post">
-			<div class="row">
 
-				<div class="col-md-12 textPost" style="color:black;">
-					<h2><a class="post-link" href="/instalar-jdk">Instalar JDK 1.8</a></h2>
-				    <p><p>Actualmente estoy utilizando ubuntu 14.04 para trabajar. He encontrado que en un proyecto necesitaba instalar la version 1.8 del JDK.</p>
+  <div class="post" id="post-solo">
 
-<p><strong>Los comandos para instalarlos son:</strong></p>
+    <header class="post-header">
+      <h1 class="post-link">Jekyll, el blog para desarrolladores</h1>
+      <p class="post-meta">Jul 14, 2016</p>
+    </header>
 
-<p><code>
-$ sudo add-apt-repository ppa:webupd8team/java
-$ sudo apt-get update
-$ sudo apt-get install oracle-java8-installer
-$ sudo apt-get install oracle-java8-set-default
-</code></p>
-
-<p><strong>Verificar la version instalada:</strong></p>
-
-<p><code>
-$ java -version
-</code></p>
-
-<p>En este punto debería de mostrarte que tienes la versión 1.8 instalada.</p>
-
-<p>Para cambiar la versión de java en android studio dirígete a:</p>
-
-<p><code>File-&gt;Project Structure</code></p>
-
-<p>Seguidamente selecciona la última version.</p>
-</p>
-
-				</div>
-
-			</div>
-
-		</div>
-
-<div class="col-md-12 post">
-			<div class="row">
-
-				<div class="col-md-12 textPost" style="color:black;">
-					<h2><a class="post-link" href="/jekyll">Jekyll, el blog para desarrolladores</a></h2>
-				    <p><h3 id="qu-es-jekyll">¿ Qué es Jekyll?</h3>
+    <article class="post-content">
+      <h3 id="qu-es-jekyll">¿ Qué es Jekyll?</h3>
 <p>Jekyll es un generador estático diseñado para blogs. La parte más interesante de Jekyl es su integración con github-pages. Esta plataforma permite tener un blog de una forma rápida y ser hospedado gratuitamente en la plataforma github-pages. A causa de que el coste del hosting es gratuito, los gastos asociados al mantenimiento se reducen considerablemente. Incluso se puede utilizar un subdominio de github para acceder a tu pagina, en caso de que no dispongas de un dominio própio.</p>
 
 <h3 id="cmo-funciona">¿ Cómo funciona?</h3>
@@ -159,30 +81,13 @@ layout: post
 title: post_title
 </code></p>
 
-</p>
 
-				</div>
+    </article>
 
-			</div>
-
-		</div>
-
-
-	</div>
-
-
+  </div>
 
 </div>
 
-    <div class="footer">
-	<div class="container">
-		<div class="row">
-		  <div class="col-md-12 footer-content"><h4>Made with <i class="fa fa-heart" aria-hidden="true"></i> for you ;)</h4></div>
-
-		</div>
-	</div>
-
-</div>
 
 
   </body>

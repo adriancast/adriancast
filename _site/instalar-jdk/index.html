@@ -8,14 +8,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width initial-scale=1">
 
-  <title>Welcome to my blog!</title>
-  <meta name="description" content="Esto es mi primer post, espero que el blog sea de vuesto agrado">
+  <title>Instalar JDK 1.8</title>
+  <meta name="description" content="Actualmente estoy utilizando ubuntu 14.04 para trabajar. He encontrado que en un proyecto necesitaba instalar la version 1.8 del JDK.">
 
 <!--  <link rel="stylesheet" href="css/main.scss"> -->
-  <link rel="canonical" href="http://adriancastellanos.es/firstpost">
+  <link rel="canonical" href="http://adriancastellanos.es/instalar-jdk">
   <link rel="alternate" type="application/atom+xml" title="</adrian_cast>" href="http://adriancastellanos.es/feed.xml" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" >
-  <link rel="canonical" href="http://adriancastellanos.es/firstpost">
+  <link rel="canonical" href="http://adriancastellanos.es/instalar-jdk">
   <link rel="alternate" type="application/atom+xml" title="</adrian_cast>" href="http://adriancastellanos.es/feed.xml" />
   <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.6.3/font-awesome.min.css" integrity="sha384-Wrgq82RsEean5tP3NK3zWAemiNEXofJsTwTyHmNb/iL3dP/sZJ4+7sOld1uqYJtE" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="/css/style.css">
@@ -48,12 +48,35 @@
   <div class="post" id="post-solo">
 
     <header class="post-header">
-      <h1 class="post-link">Welcome to my blog!</h1>
-      <p class="post-meta">Jul 5, 2016</p>
+      <h1 class="post-link">Instalar JDK 1.8</h1>
+      <p class="post-meta">Jul 18, 2016</p>
     </header>
 
     <article class="post-content">
-      <p>Esto es mi primer post, espero que el blog sea de vuesto agrado</p>
+      <p>Actualmente estoy utilizando ubuntu 14.04 para trabajar. He encontrado que en un proyecto necesitaba instalar la version 1.8 del JDK.</p>
+
+<p><strong>Los comandos para instalarlos son:</strong></p>
+
+<p><code>
+$ sudo add-apt-repository ppa:webupd8team/java
+$ sudo apt-get update
+$ sudo apt-get install oracle-java8-installer
+$ sudo apt-get install oracle-java8-set-default
+</code></p>
+
+<p><strong>Verificar la version instalada:</strong></p>
+
+<p><code>
+$ java -version
+</code></p>
+
+<p>En este punto debería de mostrarte que tienes la versión 1.8 instalada.</p>
+
+<p>Para cambiar la versión de java en android studio dirígete a:</p>
+
+<p><code>File-&gt;Project Structure</code></p>
+
+<p>Seguidamente selecciona la última version.</p>
 
     </article>
 
