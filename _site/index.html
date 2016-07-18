@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width initial-scale=1">
 
   <title></adrian_cast></title>
-  <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+  <meta name="description" content="Desarrollador Front End y estudiante. Blog personal Adrian Castellanos.En vez de preparar los exámenes de la universidad escribo sobre las nuevas tecnologías que aparecen y snippets de codigo que me han solucionado la vida.
 ">
 
 <!--  <link rel="stylesheet" href="css/main.scss"> -->
@@ -58,7 +58,7 @@
         </p>
 
         <h4>
-          Si quieres contactar con migo puedes hacerlo en las siguientes plataformas...
+          Si quieres contactar conmigo puedes hacerlo en las siguientes plataformas...
         </h4>
           <div class="icon-wraper">
             <a href="https://twitter.com/_adriancast"><div class="icon entypo-twitter animated"><i class="fa fa-twitter" aria-hidden="true"></i></div></a>
@@ -86,8 +86,6 @@ sr.reveal('.animated', 250);
 
 
 <div class="container"id="content">
-
-	<div class="row">
     <div class="content-header">
 
 	<h2>En vez de estudiar escribo sobre...</h2>
@@ -99,21 +97,31 @@ sr.reveal('.animated', 250);
 			<div class="row">
 
 				<div class="col-md-12 textPost" style="color:black;">
-					<h2><a class="post-link" href="/welcome-to-jekyll">Welcome to Jekyll Brah!</a></h2>
-				    <p><p>You’ll find this post in your <code>_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code>jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+					<h2><a class="post-link" href="/instalar-jdk">Instalar JDK 1.8</a></h2>
+				    <p><p>Actualmente estoy utilizando ubuntu 14.04 para trabajar. He encontrado que en un proyecto necesitaba instalar la version 1.8 del JDK.</p>
 
-<p>To add new posts, simply add a file in the <code>_posts</code> directory that follows the convention <code>YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+<p><strong>Los comandos para instalarlos son:</strong></p>
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+<p><code>
+$ sudo add-apt-repository ppa:webupd8team/java
+$ sudo apt-get update
+$ sudo apt-get install oracle-java8-installer
+$ sudo apt-get install oracle-java8-set-default
+</code></p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">&quot;Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">&quot;</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">&#39;Tom&#39;</span><span class="p">)</span>
-<span class="c1">#=&gt; prints &#39;Hi, Tom&#39; to STDOUT.</span></code></pre></div>
+<p><strong>Verificar la version instalada:</strong></p>
 
-<p>Check out the <a href="http://jekyllrb.com">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://github.com/jekyll/jekyll-help">Jekyll’s dedicated Help repository</a>.</p>
+<p><code>
+$ java -version
+</code></p>
 
+<p>En este punto debería de mostrarte que tienes la versión 1.8 instalada.</p>
+
+<p>Para cambiar la versión de java en android studio dirígete a:</p>
+
+<p><code>File-&gt;Project Structure</code></p>
+
+<p>Seguidamente selecciona la última version.</p>
 </p>
 
 				</div>
@@ -128,8 +136,35 @@ sr.reveal('.animated', 250);
 			<div class="row">
 
 				<div class="col-md-12 textPost" style="color:black;">
-					<h2><a class="post-link" href="/firstpost">Welcome to my blog!</a></h2>
-				    <p><p>Esto es mi primer post, espero que el blog sea de vuesto agrado</p>
+					<h2><a class="post-link" href="/jekyll">Jekyll, el blog para desarrolladores</a></h2>
+				    <p><h3 id="qu-es-jekyll">¿ Qué es Jekyll?</h3>
+<p>Jekyll es un generador estático diseñado para blogs. La parte más interesante de Jekyl es su integración con github-pages. Esta plataforma permite tener un blog de una forma rápida y ser hospedado gratuitamente en la plataforma github-pages. A causa de que el coste del hosting es gratuito, los gastos asociados al mantenimiento se reducen considerablemente. Incluso se puede utilizar un subdominio de github para acceder a tu pagina, en caso de que no dispongas de un dominio própio.</p>
+
+<h3 id="cmo-funciona">¿ Cómo funciona?</h3>
+
+<p>Como he dicho antes Jekyll es un generador estático para blogs. A rasgos muy generales compila el blog extrayendo los post de unos ficheros de texto. Por cada post tendremos un fichero diferente en nuestro proyecto.</p>
+
+<h3 id="recomiendas-jekyll">¿ Recomiendas Jekyll?</h3>
+<p>Absolutamente si eres desarrollador. En un par de días tendras un blog totalmente personalizado y con un toque personal. Si quieres empezar a desarrollar rápido te recomiendo que eches un ojo a este <a href="https://github.com/adriancast/jekyll-gulp-sass-browser-sync">repositorio de github</a>, te facilitará mucho la tarea.</p>
+
+<p>En caso de que no tengas muchos conocimientos sobre páginas web te recomendaría que utilizaras wordpress o blogger.</p>
+
+<p>Existen otras plataformas, pero esas dos son las mas populares, por ende, hay mas temas para personalizarlos.</p>
+
+<h3 id="qu-utilizo-para-publicar-un-post">¿ Qué utilizo para publicar un post?</h3>
+
+<p>Para escribir los post utilizo <a href="https://prose.io">prose.io</a>. Esta aplicación web se conecta al repositorio de github-pages para crear y modificar los archivos en los que se encuentran los post. Aseguraos de crear los post en la rama gh-pages para que se publiquen en vuestro blog.</p>
+
+<p>He tenido problemas utilizando esta herramienta.Cuando creaba un post no se publicaba. El problema era que de forma predeterminada la propiedad ‘published’ estaba desactivada. Seguramente existe una solución más óptima pero esta es la mía.</p>
+
+<p>En la barra lateral de prose hay un apartado que se llama metadata. Introduciendo el siguiente código se soluciona el problema</p>
+
+<p><code>
+published: true
+layout: post
+title: post_title
+</code></p>
+
 </p>
 
 				</div>
@@ -137,10 +172,6 @@ sr.reveal('.animated', 250);
 			</div>
 
 		</div>
-
-
-
-	</div>
 
 
 
