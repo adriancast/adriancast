@@ -6,6 +6,8 @@ title: Instalar JDK 1.8
 Actualmente estoy utilizando ubuntu 14.04 para trabajar. He encontrado que en un proyecto necesitaba instalar la version 1.8 del JDK.
 
 **Los comandos para instalarlos son:**
+
+
 ```
 $ sudo add-apt-repository ppa:webupd8team/java
 
@@ -17,6 +19,8 @@ $ sudo apt-get install oracle-java8-set-default
 ```
 
 **Verificar la version instalada:**
+
+
 ```
 $ java -version
 ```
